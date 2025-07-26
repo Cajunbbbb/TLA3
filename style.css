@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #4a1541; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 5vh;
+}
+
+h1{
+    text-align: left;
+} 
+
+h2{
+    text-align: left;
+    color: orange;
+    font-size: 230%;
+}
+
+p{
+    text-align: left;
+}
+
+div{
+    text-align: left;
+}
+
+section{
+    float: left;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.talk-to-sales {
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+}
+
+.try-for-free {
+    background-color: white; 
+    textcolor: transparent;
+    font-size: 15px;
+}
+
+.sign-in{
+    background-color: transparent; 
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.sign-up {
+    margin: 20px 0;
+}
+
+.email-signup{
+    padding: 10px 20px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+
+.google-signup {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: #15a4d8;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.product-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.mobile-image, .desktop-image {
+    background-color: #ffffff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    flex: 1;
+    max-width: 300px;
+}
